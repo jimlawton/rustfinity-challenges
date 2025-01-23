@@ -1,7 +1,6 @@
 use proc_macro::TokenStream;
 use syn;
 use quote::quote;
-// use syn::{parse_macro_input, Data, DataStruct, DeriveInput, Fields, FieldsNamed};
 
 #[proc_macro_derive(Describe)]
 pub fn describe_derive(input: TokenStream) -> TokenStream {
